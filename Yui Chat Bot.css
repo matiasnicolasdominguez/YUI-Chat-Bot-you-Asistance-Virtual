@@ -1,0 +1,236 @@
+
+/* es el css del switch del modo oscuro */
+body.dark-mode {
+    background: #181818;
+    color: #f1f1f1;
+      }
+body.dark-mode h1, body.dark-mode h2, body.dark-mode h3 {
+    color: #e0e0e0;
+      }
+body.dark-mode button {
+    background: #333;
+    color: #fff;
+    border: 1px solid #888;
+      }
+.switch {
+  position: absolute;
+  top: 28px;
+  right: 20px;
+  width: 60px;
+  height: 34px;
+}
+.switch input {display:none;}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: #ccc;
+  transition: .15s;
+  border-radius: 34px;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px; width: 26px;
+  left: 4px; bottom: 4px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+input:checked + .slider {
+  background-color: #181818;
+}
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.animation {
+  animation: fadeIn 2s ease-in-out;
+}
+/* este es el perfil de usuario y la barra vertical y latral */
+
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background: #222;
+    overflow-x: hidden;
+    transition: 0.4s;
+    padding-top: 60px;
+    box-shadow: 2px 0 8px rgba(0,0,0,0.15);
+}
+.sidebar a {
+    padding: 12px 32px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #fff;
+    display: block;
+    transition: 0.2s;
+}
+.sidebar a:hover, .sidebar .closebtn:hover {
+    background: #444;
+}
+.sidebar .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 24px;
+    font-size: 2rem;
+    color: #fff;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+body.sidebar-open #sidebar {
+    width: 250px;
+}
+.sidebar img {
+    position: relative;
+    top: 15px;
+    left: 79px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+.sidebar a {
+    position: relative;
+    top: 16px;
+    left: 10px
+}
+.peticion-btn {
+    position: absolute;
+    background: linear-gradient(90deg, #6a82fb 0%, #c8455f 100%);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 28px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.6s, transform 0.2s;
+}
+.peticion-btn:hover {
+    background: linear-gradient(90deg, #fc5c7d 0%, #6a82fb 100%);
+    transform: translateY(-2px) scale(1.04);
+}
+/* este es el css del menu de chat de Yui Chat-Bot */
+
+.chat-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background: linear-gradient(90deg, #ed7017 0%, #090c6d 100%);
+    border-bottom: 1px solid #ccc;
+}
+.chat-header h1 {
+    height: 30px;
+    margin-right: 55px;
+
+}
+.chat-header img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.eslogan h2 {
+    position: relative;
+    top: -47px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Contenedor general */
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 67vh;
+  max-width: auto;
+  margin: auto;
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+/* Área de mensajes */
+.chat-box {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  background: #f9f9f9;
+}
+
+/* Input + botón */
+.chat-input {
+  display: flex;
+  border-top: 1px solid #ddd;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+.chat-input button {
+  padding: 10px 20px;
+  border: none;
+  background: #169c50;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.chat-input button:hover {
+  background: #10753c;
+}
+
+.barra {
+    position: relative;
+    top: 335px;
+    max-width: 390px;
+    
+}
+.barra input {
+    width: 383px;
+    border-radius: 15px;
+}
+.barra button {
+    position: absolute;
+    top: 0px;
+    right: -68px;
+    border-radius: 15px
+}
+.barra button {
+    background-color: #169c50;
+    border-radius: 15px;
+    padding: 7px
+}
+.barra a {
+    position: absolute;
+    left: 80px;
+}
+
+/* Botón de petición estilo moderno */
+.peticion-btn {
+    background: linear-gradient(90deg, #13278d 0%, #700c20 100%);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 28px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+.peticion-btn:hover {
+    background: linear-gradient(90deg, #13278d 0%, #700c20 100%);
+    transform: translateY(-2px) scale(1.04);
+}
