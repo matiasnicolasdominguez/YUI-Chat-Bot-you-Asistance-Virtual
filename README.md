@@ -14,8 +14,6 @@ Actualmente es **solo visual** (frontend), aún no tiene lógica de respuesta.
 - Expandir la lógica a un backend con Python o Node.js.
 - Añadir memoria de conversación.
 
-<center>
-<h1 style="color: Red;">Este es el link de mi pagina web</h1>
-</center>
+Este es el link de mi pagina web
 
 https://matiasnicolasdominguez.github.io/YUI-Chat-Bot-you-Asistance-Virtual/#
