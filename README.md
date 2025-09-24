@@ -1,19 +1,19 @@
-# YUI-Chat-Bot-you-Asistance-Virtual
+#YUI-Chat-Bot-Your-Assistance-Virtual
 
-# Yui ChatBot (Demo)
-Este es un prototipo de interfaz para un chatbot llamado **Yui**.  
-Actualmente es **solo visual** (frontend), aún no tiene lógica de respuesta.  
+#Yui ChatBot (Demo)
+This is a prototype interface for a chatbot called **Yui**.
+It is currently **visual-only** (frontend); it doesn't yet have response logic.
 
-## Tecnologías
+## Technologies
 - HTML5
 - CSS3
-- JavaScript (solo para modo oscuro y estructura inicial)
+- JavaScript (only for dark mode and initial structure)
 
-## Próximos pasos
-- Implementar respuestas predefinidas en JS.
-- Expandir la lógica a un backend con Python o Node.js.
-- Añadir memoria de conversación.
+## Next Steps
+- Implement canned responses in JS.
+- Expand the logic to a backend with Python or Node.js.
+- Add conversation memory.
 
-Este es el link de mi pagina web
+This is the link to my website
 
-https://matiasnicolasdominguez.github.io/YUI-Chat-Bot-you-Asistance-Virtual/#
+https://matiasnicolasdominguez.github.io/YUI-Chat-Bot-you-Asistance-Virtual/
